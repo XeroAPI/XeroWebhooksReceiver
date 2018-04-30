@@ -19,14 +19,14 @@ You can choose whether to run this sample application from the packaged executab
 
 ### From the executable
 1. Download the packaged executable and unzip to a directory of your choice.
-2. Update 'SigningKey.txt' to hold the key for your subscription. This can be found by browsing to your app at https://developer.xero.com/myapps
+2. Update 'SigningKey.txt' with your Webhook key to hold the key for your subscription. This can be found by browsing to your app at https://developer.xero.com/myapps and selecting the webhooks tab.
 3. Open a terminal in the directory and execute `dotnet XeroWebhooksReceiver.dll`. This will start a local web server (e.g. http://localhost:5000).
 4. Make your server accessible from Xero as described below.
 
 ### From source
 1. Clone this repository.
 2. Open the solution in a compatible IDE (e.g. Visual Studio Community Edition)
-3. Update 'SigningKey.txt' to hold the key for your subscription. This can be found by browsing to your app at https://developer.xero.com/myapps
+3. Update 'SigningKey.txt' with your Webhook key to hold the key for your subscription. This can be found by browsing to your app at https://developer.xero.com/myapps and selecting the webhooks tab.
 4. Build the solution.
 5. Run the solution. This will start a local web server (e.g. http://localhost:5000).
 6. Make your server accessible from Xero as described below.
